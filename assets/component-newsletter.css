@@ -52,12 +52,12 @@
 }
 
 .newsletter-form__button:focus-visible {
-  box-shadow: 0 0 0 .3rem rgb(var(--color-background)),0 0 0 .4rem rgba(var(--color-foreground));
+  box-shadow: 0 0 0 0.3rem rgb(var(--color-background)), 0 0 0 0.4rem rgba(var(--color-foreground));
   background-color: rgb(var(--color-background));
 }
 
 .newsletter-form__button:focus {
-  box-shadow: 0 0 0 .3rem rgb(var(--color-background)),0 0 0 .4rem rgba(var(--color-foreground));
+  box-shadow: 0 0 0 0.3rem rgb(var(--color-background)), 0 0 0 0.4rem rgba(var(--color-foreground));
   background-color: rgb(var(--color-background));
 }
 
@@ -68,4 +68,26 @@
 
 .newsletter-form__button .icon {
   width: 1.5rem;
+}
+
+/* horizontal line */
+.newsletter__wrapper .h1:before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 12%;
+  width: 120px;
+  height: 3px;
+  background-color: rgb(var(--color-base-accent-2));
+}
+
+/* vertical line */
+.newsletter__wrapper .h1:after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 12%;
+  width: 3px;
+  height: 90px;
+  background-color: rgb(var(--color-base-accent-2));
 }

@@ -38,6 +38,10 @@
     row-gap: 6rem;
     margin-bottom: 0;
   }
+
+  .footer-block.grid__item.footer-block--menu {
+    width: calc(25% - var(--grid-desktop-horizontal-spacing) * 3 / 4);
+  }
 }
 
 .footer__content-bottom {
@@ -156,6 +160,11 @@
   .footer-block__heading {
     font-size: calc(var(--font-heading-scale) * 1.8rem);
   }
+}
+
+.footer__list-social.list-social {
+  justify-content: flex-start;
+  padding: 0 5rem 5rem;
 }
 
 .footer__list-social:empty,

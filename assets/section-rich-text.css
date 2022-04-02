@@ -10,6 +10,28 @@
   width: 100%;
 }
 
+/* horizontal line */
+.rich-text .h1:before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 12%;
+  width: 120px;
+  height: 3px;
+  background-color: rgb(var(--color-base-accent-2));
+}
+
+/* vertical line */
+.rich-text .h1:after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 12%;
+  width: 3px;
+  height: 90px;
+  background-color: rgb(var(--color-base-accent-2));
+}
+
 .rich-text__blocks {
   margin: auto;
   /* 2.5rem margin on left & right */
@@ -38,7 +60,7 @@
 
 @media screen and (min-width: 990px) {
   .rich-text__blocks {
-    max-width: 78rem;
+    max-width: 88rem;
   }
 }
 
