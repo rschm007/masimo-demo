@@ -16,6 +16,7 @@
   display: block;
   position: absolute;
   top: 12%;
+  left: 2rem;
   width: 120px;
   height: 3px;
   background-color: rgb(var(--color-base-accent-2));
@@ -27,9 +28,26 @@
   display: block;
   position: absolute;
   top: 12%;
+  left: 2rem;
   width: 3px;
   height: 90px;
   background-color: rgb(var(--color-base-accent-2));
+}
+
+@media screen and (max-width: 768px) {
+  /* horizontal line */
+  .rich-text .h1:before {
+    top: 5%;
+    width: 120px;
+    height: 3px;
+  }
+
+  /* vertical line */
+  .rich-text .h1:after {
+    top: 5%;
+    width: 3px;
+    height: 90px;
+  }
 }
 
 .rich-text__blocks {
