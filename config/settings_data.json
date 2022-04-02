@@ -1,19 +1,14 @@
 {
   "current": {
     "colors_solid_button_labels": "#ffffff",
-    "colors_accent_1": "#121212",
-    "gradient_accent_1": "",
-    "colors_accent_2": "#334fb4",
-    "gradient_accent_2": "",
+    "colors_accent_1": "#ce0e2d",
     "colors_text": "#121212",
     "colors_outline_button_labels": "#121212",
-    "colors_background_1": "#ffffff",
-    "gradient_background_1": "",
-    "colors_background_2": "#f3f3f3",
-    "gradient_background_2": "",
-    "type_header_font": "assistant_n4",
+    "colors_background_1": "#f5f5f6",
+    "colors_background_2": "#eeeeee",
+    "type_header_font": "roboto_n5",
     "heading_scale": 100,
-    "type_body_font": "assistant_n4",
+    "type_body_font": "roboto_n3",
     "body_scale": 100,
     "page_width": 1200,
     "spacing_sections": 0,
@@ -103,7 +98,7 @@
           "announcement-bar-0": {
             "type": "announcement",
             "settings": {
-              "text": "Welcome to our store",
+              "text": "",
               "color_scheme": "background-1",
               "link": ""
             }
@@ -118,9 +113,10 @@
         "type": "header",
         "settings": {
           "color_scheme": "background-1",
-          "logo_width": 90,
+          "logo_width": 140,
           "logo_position": "middle-left",
           "menu": "main-menu",
+          "menu_position": "menu-right",
           "show_line_separator": true,
           "enable_sticky_header": true,
           "margin_bottom": 0
@@ -197,9 +193,9 @@
       "gradient_background_1": "",
       "colors_background_2": "#f3f3f3",
       "gradient_background_2": "",
-      "type_header_font": "assistant_n4",
+      "type_header_font": "roboto_n5",
       "heading_scale": 100,
-      "type_body_font": "assistant_n4",
+      "type_body_font": "roboto_n3",
       "body_scale": 100,
       "page_width": 1200,
       "spacing_sections": 0,
@@ -304,7 +300,7 @@
           "type": "header",
           "settings": {
             "color_scheme": "background-1",
-            "logo_width": 90,
+            "logo_width": 140,
             "logo_position": "middle-left",
             "menu": "main-menu",
             "show_line_separator": true,
